@@ -1,0 +1,10 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Реквизиты");
+?>
+<?$APPLICATION->IncludeFile(
+	SITE_DIR."/local/includes/rekviziti.php",
+	Array(),
+	Array("MODE"=>"html")
+);?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
