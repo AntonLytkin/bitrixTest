@@ -1,4 +1,5 @@
 <?
+//hz
 ########## Proxy config ######
 $proxyAddr = "";
 $proxyPort = "";
